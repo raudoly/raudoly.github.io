@@ -1,0 +1,14 @@
+
+.portrait {
+    width: 27%;
+    height: auto;
+    object-fit: contain;
+    padding: 5px 40px 5px 0px;
+    float: left
+}
+
+@media (max-width: 600px) {
+    .portrait {
+        display: none;
+    }
+}
